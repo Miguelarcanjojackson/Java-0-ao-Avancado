@@ -1,11 +1,13 @@
+import java.util.Scanner;
 public class OlaMundo {
     public static void main(String[] args) {
-        System.out.println("Ola mundo,Irei ser um Grande Engenheiro de Sowftware!!!");
-        System.out.println("Agora foi");
-        System.out.println("Agora foi final");
-        System.out.println("Testando pela maquina de junior");
-        System.out.println("Miguel tome no cuivis ");
-        System.out.println("Vai tomar no cu Jackson Junior");
-        System.out.println("Finalizando");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Digite seu nome = ");
+        String nome = sc.nextLine();
+        System.out.println("Bem vindo " + nome + " Belo aprendizado!!");
+
+        sc.close();
+
+
     }
 }
